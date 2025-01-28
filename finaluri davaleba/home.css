@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    color: #e7bc91;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ffedd8;
+    color: #583101;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 30vh 0;
+}
+
+span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: #ffedd8;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li:hover{
+    color: #583101;
+    text-shadow: 0 0 1px #a47148;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.imgsdiv{
+    display: flex;
+    gap: 15px;
+    margin: 97px 0 0 0;
+}
+
+.imgsdiv img{
+    width: 33.3%;
+    height: 90vh;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1{
+    font-size: 60px;
+    font-weight: 600;
+    background-color: #ffedd8;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    width: 700px;
+    position: relative;
+    margin-top: -40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 80px;
+    padding: 0 0 70px 0;
+}
+
+.instaa{
+    width: 35%;
+    min-height: 100px;
+    background-color: #e7bc91;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 50px;
+    box-sizing: border-box;
+}
+
+
+
+.instaa .emaildiv{
+    width: 400px;
+    min-height: 100px;
+    background-color: #a47148;
+    color: #ffedd8;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.instaa .emaildiv h1{
+    font-size: 38px;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.instaa .emaildiv #email{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ffedd8;
+    outline: none;
+    background-color: #a47148;
+    margin: 0 0 30px 0;
+}
+
+.instaa .emaildiv div{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.instaa .emaildiv button{
+    width: 100%;
+    background-color: #ffedd8;
+    border: none;
+    color: #583101;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.instaa .instagram{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instaa .instagram h2{
+    font-size: 30px;
+}
+
+
+.instaa .imgs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.instaa .imgs img{
+    width: 48%;
+    height: 200px;
+}
+
+.instaa .instagram ul li{
+    font-size: 25px;
+}
+
+
+
+
+
+
+section .blogsdiv{
+    width: 35%;
+}
+
+section .blogsdiv .blog{
+    width: 100%;
+    height: 40vh;
+    background-color: #ffedd8;
+    border: 1px solid gray;
+    display: flex;
+}
+
+section .blogsdiv .blog img{
+    width: 45%;
+    height: 100%;
+}
+
+section .blogsdiv .blog .iformation{
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+section .blogsdiv .blog .iformation h4{
+    font-size: 0.5rem;
+}
+
+section .blogsdiv .blog .iformation h2{
+    font-size: 1rem;
+}
+
+section .blogsdiv .blog .iformation a{
+    color: #583101;
+    text-decoration: none;
+}
+
+section .blogsdiv .blog .iformation a:hover{
+    color: #e7bc91;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+section .blogsdiv button{
+    padding: 10px 50px;
+    border: none;
+    font-size: 20px;
+    color: #ffedd8;
+    background-color: #583101;
+    cursor: pointer;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #583101;
+    color: #ffedd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
